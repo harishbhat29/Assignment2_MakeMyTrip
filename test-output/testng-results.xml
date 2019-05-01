@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="191615" started-at="2019-05-01T07:27:27Z" finished-at="2019-05-01T07:30:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="191615" started-at="2019-05-01T07:27:27Z" finished-at="2019-05-01T07:30:39Z">
+      <class name="com.qa.tests.ResultPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.ResultPageTest@14bf9759]" name="setUp" is-config="true" duration-ms="21902" started-at="2019-05-01T12:57:49Z" finished-at="2019-05-01T12:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFlightPrice_Test()[pri:1, instance:com.qa.tests.ResultPageTest@14bf9759]" name="verifyFlightPrice_Test" duration-ms="26534" started-at="2019-05-01T12:58:11Z" finished-at="2019-05-01T12:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightPrice_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ResultPageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="336" started-at="2019-05-01T12:58:37Z" finished-at="2019-05-01T12:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.ResultPageTest@14bf9759]" name="setUp" is-config="true" duration-ms="18641" started-at="2019-05-01T12:58:38Z" finished-at="2019-05-01T12:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="printTotalNumberOfNonStopFlights_Test()[pri:2, instance:com.qa.tests.ResultPageTest@14bf9759]" name="printTotalNumberOfNonStopFlights_Test" duration-ms="21628" started-at="2019-05-01T12:58:56Z" finished-at="2019-05-01T12:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTotalNumberOfNonStopFlights_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ResultPageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="211" started-at="2019-05-01T12:59:18Z" finished-at="2019-05-01T12:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.ResultPageTest@14bf9759]" name="setUp" is-config="true" duration-ms="18444" started-at="2019-05-01T12:59:18Z" finished-at="2019-05-01T12:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="printTotalNumberOfOneStopFlights_Test()[pri:3, instance:com.qa.tests.ResultPageTest@14bf9759]" name="printTotalNumberOfOneStopFlights_Test" duration-ms="21250" started-at="2019-05-01T12:59:37Z" finished-at="2019-05-01T12:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTotalNumberOfOneStopFlights_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ResultPageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="2148" started-at="2019-05-01T12:59:58Z" finished-at="2019-05-01T13:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.ResultPageTest@14bf9759]" name="setUp" is-config="true" duration-ms="18925" started-at="2019-05-01T13:00:00Z" finished-at="2019-05-01T13:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="printTotalNumberOfFlights_Test()[pri:4, instance:com.qa.tests.ResultPageTest@14bf9759]" name="printTotalNumberOfFlights_Test" duration-ms="19390" started-at="2019-05-01T13:00:19Z" finished-at="2019-05-01T13:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTotalNumberOfFlights_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ResultPageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="454" started-at="2019-05-01T13:00:38Z" finished-at="2019-05-01T13:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.ResultPageTest -->
+      <class name="com.qa.tests.SearchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.SearchPageTest@3c0ecd4b]" name="setUp" is-config="true" duration-ms="10479" started-at="2019-05-01T12:57:27Z" finished-at="2019-05-01T12:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchForFlights_Test()[pri:0, instance:com.qa.tests.SearchPageTest@3c0ecd4b]" name="searchForFlights_Test" duration-ms="10886" started-at="2019-05-01T12:57:38Z" finished-at="2019-05-01T12:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForFlights_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.SearchPageTest@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="328" started-at="2019-05-01T12:57:49Z" finished-at="2019-05-01T12:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.SearchPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

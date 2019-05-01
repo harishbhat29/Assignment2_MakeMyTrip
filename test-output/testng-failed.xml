@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="printTotalNumberOfNonStopFlights_Test(failed)" parallel="tests">
+    <parameter name="testNameNg" value="printTotalNumberOfNonStopFlights_Test"/>
+    <classes>
+      <class name="com.qa.tests.SearchPageTest">
+        <methods>
+          <include name="searchForFlights_Test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- printTotalNumberOfNonStopFlights_Test(failed) -->
+  <test name="printTotalNumberOfFlights_Test(failed)" parallel="tests">
+    <parameter name="testNameNg" value="printTotalNumberOfFlights_Test"/>
+    <classes>
+      <class name="com.qa.tests.SearchPageTest">
+        <methods>
+          <include name="searchForFlights_Test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- printTotalNumberOfFlights_Test(failed) -->
+  <test name="searchForFlights_Test(failed)" parallel="tests">
+    <parameter name="testNameNg" value="searchForFlights_Test"/>
+    <classes>
+      <class name="com.qa.tests.SearchPageTest">
+        <methods>
+          <include name="searchForFlights_Test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- searchForFlights_Test(failed) -->
+  <test name="printTotalNumberOfOneStopFlights_Test(failed)" parallel="tests">
+    <parameter name="testNameNg" value="printTotalNumberOfOneStopFlights_Test"/>
+    <classes>
+      <class name="com.qa.tests.SearchPageTest">
+        <methods>
+          <include name="searchForFlights_Test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- printTotalNumberOfOneStopFlights_Test(failed) -->
+  <test name="verifyFlightPrice_Test(failed)" parallel="tests">
+    <parameter name="testNameNg" value="verifyFlightPrice_Test"/>
+    <classes>
+      <class name="com.qa.tests.SearchPageTest">
+        <methods>
+          <include name="searchForFlights_Test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- verifyFlightPrice_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
